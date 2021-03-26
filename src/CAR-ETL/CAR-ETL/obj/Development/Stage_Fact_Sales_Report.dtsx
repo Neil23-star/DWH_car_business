@@ -1,0 +1,3121 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/14/2020 6:56:49 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-QEN4LJI"
+  DTS:CreatorName="DESKTOP-QEN4LJI\PC"
+  DTS:DTSID="{BE6F8216-9F95-4E56-BBC3-50E3FE3EA823}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.93"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{BA027A9F-BC23-4517-AC4D-CEE67F21F61C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{C1EDDF30-5C55-42F4-9BC6-D1166131D0B9}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{C9DEB34F-8A1E-4337-A9AA-C4B2701C22A4}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{14A55B2C-1FBB-4CA6-B970-1B85522E472A}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 3]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{54C895F0-4FFF-475C-98A5-0938C52C37C5}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 4]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{A48913B6-6CED-4639-BC40-8B24BA1E0AA8}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 5]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{D32D2343-3C4E-4496-888B-A520309FD91B}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 6]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{32AE02DB-9408-4809-B751-F721247BDB9A}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 7]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{E56CC36E-9B30-4230-BF1F-372415E2ACC8}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 7">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buycarStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{D8E3D8A3-5851-409A-8475-F7F00C95E406}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buy_car">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buy_car;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F68C7392-0045-4944-B5E5-B0915033D257}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buy_car;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{EF199B33-82C0-4E4A-BC1D-160B5FEA813B}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buy_car;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 3]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{A81AFD5D-665C-4532-8548-7600F634512B}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buy_car;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 4]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{2181BF5A-0083-4A83-8317-7E975CB7861E}"
+      DTS:ObjectName="DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-QEN4LJI\SQLEXPRESS;Initial Catalog=buy_car;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\DF – Stage Customers"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{C83F61C0-BA72-4B67-BD2B-01C7A1B22036}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF – Stage Customers"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="DST - Stage stgBuyCar Customers"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[stgBuyCarCustomers]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerNumber]"
+                      cachedDataType="i4"
+                      cachedName="CustomerNumber"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerNumber]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerNumber]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CustomerName"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerName]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerName]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[ContactName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="101"
+                      cachedName="ContactName"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[ContactName]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[ContactName]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerCountry]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CustomerCountry"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerCountry]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCountry]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerState]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CustomerState"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerState]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerState]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerCity]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CustomerCity"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerCity]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCity]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerAddress]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CustomerAddress"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerAddress]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerAddress]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerPostalCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="CustomerPostalCode"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerPostalCode]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerPostalCode]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerRepEmployee]"
+                      cachedDataType="i4"
+                      cachedName="CustomerRepEmployee"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerRepEmployee]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerRepEmployee]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].Columns[CustomerCredit]"
+                      cachedDataType="numeric"
+                      cachedName="CustomerCredit"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerCredit]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCredit]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerNumber]"
+                      dataType="i4"
+                      name="CustomerNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[ContactName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="101"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerCountry]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerCountry" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerState]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerState" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerCity]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerCity" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerAddress]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerAddress" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerPostalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="CustomerPostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerRepEmployee]"
+                      dataType="i4"
+                      name="CustomerRepEmployee" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input].ExternalColumns[CustomerCredit]"
+                      dataType="numeric"
+                      name="CustomerCredit"
+                      precision="10"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF – Stage Customers\SRC - Buy car Customers"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="SRC - Buy car Customers"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT customerNumber AS CustomerNumber, customerName AS CustomerName, contactFirstName + ' ' + contactLastName AS ContactName, country AS CustomerCountry, state AS CustomerState, city AS CustomerCity, 
+                  addressLine1 AS CustomerAddress, postalCode AS CustomerPostalCode, salesRepEmployeeNumber AS CustomerRepEmployee, creditLimit AS CustomerCredit
+FROM     customers</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Customers\SRC - Buy car Customers.Connections[OleDbConnection]"
+                  connectionManagerID="{3B495DCD-FA5E-4EB0-A00B-623E015F01E1}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QEN4LJI_SQLEXPRESS.buy_car]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerNumber]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerNumber]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerNumber]"
+                      name="CustomerNumber"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerName]"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerName]"
+                      name="CustomerName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[ContactName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[ContactName]"
+                      length="101"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[ContactName]"
+                      name="ContactName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCountry]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerCountry]"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCountry]"
+                      name="CustomerCountry"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerState]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerState]"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerState]"
+                      name="CustomerState"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCity]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerCity]"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCity]"
+                      name="CustomerCity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerAddress]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerAddress]"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerAddress]"
+                      name="CustomerAddress"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerPostalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerPostalCode]"
+                      length="15"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerPostalCode]"
+                      name="CustomerPostalCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerRepEmployee]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerRepEmployee]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerRepEmployee]"
+                      name="CustomerRepEmployee"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCredit]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerCredit]"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].Columns[CustomerCredit]"
+                      name="CustomerCredit"
+                      precision="10"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerNumber]"
+                      dataType="i4"
+                      name="CustomerNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[ContactName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="101"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerCountry]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerCountry" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerState]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerState" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerCity]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerCity" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerAddress]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerAddress" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerPostalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="CustomerPostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerRepEmployee]"
+                      dataType="i4"
+                      name="CustomerRepEmployee" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerCredit]"
+                      dataType="numeric"
+                      name="CustomerCredit"
+                      precision="10"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerNumber]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerNumber]"
+                      name="CustomerNumber" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerName]"
+                      name="CustomerName" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[ContactName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="101"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[ContactName]"
+                      name="ContactName" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerCountry]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerCountry]"
+                      name="CustomerCountry" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerState]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerState]"
+                      name="CustomerState" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerCity]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerCity]"
+                      name="CustomerCity" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerAddress]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerAddress]"
+                      name="CustomerAddress" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerPostalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerPostalCode]"
+                      name="CustomerPostalCode" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerRepEmployee]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerRepEmployee]"
+                      name="CustomerRepEmployee" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerCredit]"
+                      dataType="numeric"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[CustomerCredit]"
+                      name="CustomerCredit"
+                      precision="10"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF – Stage Customers.Paths[OLE DB Source Output]"
+              endId="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\DF – Stage Customers\SRC - Buy car Customers.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\DF – Stage Employees"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{E105BF5B-B2A1-4B62-BACC-B60F4614BB21}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF – Stage Employees"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="DST - Stage stgBuyCar Employees"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[stgBuyCarEmployees]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 6]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 6]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].Columns[EmployeeNumber]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeNumber"
+                      externalMetadataColumnId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeNumber]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeNumber]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].Columns[EmployeeName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="101"
+                      cachedName="EmployeeName"
+                      externalMetadataColumnId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeName]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeName]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].Columns[EmployeeEmail]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="EmployeeEmail"
+                      externalMetadataColumnId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeEmail]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeEmail]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].Columns[EmployeeOfficeCode]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeOfficeCode"
+                      externalMetadataColumnId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeOfficeCode]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeOfficeCode]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].Columns[EmployeeReportsTo]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeReportsTo"
+                      externalMetadataColumnId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeReportsTo]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeReportsTo]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].Columns[EmployeeJobTitle]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="EmployeeJobTitle"
+                      externalMetadataColumnId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeJobTitle]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeJobTitle]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeNumber]"
+                      dataType="i4"
+                      name="EmployeeNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="101"
+                      name="EmployeeName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeEmail]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="EmployeeEmail" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeOfficeCode]"
+                      dataType="i4"
+                      name="EmployeeOfficeCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeReportsTo]"
+                      dataType="i4"
+                      name="EmployeeReportsTo" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeJobTitle]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="EmployeeJobTitle" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF – Stage Employees\SRC - Buy car Employees"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="SRC - Buy car Employees"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT employeeNumber AS EmployeeNumber, firstName + ' ' + lastName AS EmployeeName, email AS EmployeeEmail, officeCode AS EmployeeOfficeCode, reportsTo AS EmployeeReportsTo, jobTitle AS EmployeeJobTitle
+FROM     employees</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Employees\SRC - Buy car Employees.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 3]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 3]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeNumber]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeNumber]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeNumber]"
+                      name="EmployeeNumber"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeName]"
+                      length="101"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeName]"
+                      name="EmployeeName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeEmail]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeEmail]"
+                      length="100"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeEmail]"
+                      name="EmployeeEmail"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeOfficeCode]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeOfficeCode]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeOfficeCode]"
+                      name="EmployeeOfficeCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeReportsTo]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeReportsTo]"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeReportsTo]"
+                      name="EmployeeReportsTo"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeJobTitle]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeJobTitle]"
+                      length="50"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].Columns[EmployeeJobTitle]"
+                      name="EmployeeJobTitle"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeNumber]"
+                      dataType="i4"
+                      name="EmployeeNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="101"
+                      name="EmployeeName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeEmail]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="EmployeeEmail" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeOfficeCode]"
+                      dataType="i4"
+                      name="EmployeeOfficeCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeReportsTo]"
+                      dataType="i4"
+                      name="EmployeeReportsTo" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output].ExternalColumns[EmployeeJobTitle]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="EmployeeJobTitle" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeNumber]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeNumber]"
+                      name="EmployeeNumber" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="101"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeName]"
+                      name="EmployeeName" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeEmail]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeEmail]"
+                      name="EmployeeEmail" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeOfficeCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeOfficeCode]"
+                      name="EmployeeOfficeCode" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeReportsTo]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeReportsTo]"
+                      name="EmployeeReportsTo" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeJobTitle]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[EmployeeJobTitle]"
+                      name="EmployeeJobTitle" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF – Stage Employees.Paths[OLE DB Source Output]"
+              endId="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\DF – Stage Employees\SRC - Buy car Employees.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\DF – Stage Offices"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{93569EF8-F2A4-4B61-A0E7-8FC94D99F665}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF – Stage Offices"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="DST - Stage stgBuyCar Offices"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[stgBuyCarOffices]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].Columns[officeCode]"
+                      cachedDataType="i4"
+                      cachedName="officeCode"
+                      externalMetadataColumnId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[officeCode]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[officeCode]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].Columns[country]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="country"
+                      externalMetadataColumnId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[country]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[country]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].Columns[city]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="city"
+                      externalMetadataColumnId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[city]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[city]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].Columns[states]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="states"
+                      externalMetadataColumnId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[states]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[states]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].Columns[addressLine1]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="addressLine1"
+                      externalMetadataColumnId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[addressLine1]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[addressLine1]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].Columns[postalCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="postalCode"
+                      externalMetadataColumnId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[postalCode]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[postalCode]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].Columns[territory]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="territory"
+                      externalMetadataColumnId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[territory]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[territory]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[officeCode]"
+                      dataType="i4"
+                      name="officeCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[country]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="country" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[states]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="states" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[addressLine1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="addressLine1" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[postalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="postalCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input].ExternalColumns[territory]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="territory" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF – Stage Offices\SRC - Buy car Offices"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="SRC - Buy car Offices"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT officeCode, country, city, states, addressLine1, postalCode, territory
+FROM     offices</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Offices\SRC - Buy car Offices.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[officeCode]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[officeCode]"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[officeCode]"
+                      name="officeCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[country]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[country]"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[country]"
+                      name="country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[city]"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[city]"
+                      name="city"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[states]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[states]"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[states]"
+                      name="states"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[addressLine1]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[addressLine1]"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[addressLine1]"
+                      name="addressLine1"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[postalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[postalCode]"
+                      length="15"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[postalCode]"
+                      name="postalCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[territory]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[territory]"
+                      length="10"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].Columns[territory]"
+                      name="territory"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[officeCode]"
+                      dataType="i4"
+                      name="officeCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[country]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="country" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[states]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="states" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[addressLine1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="addressLine1" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[postalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="postalCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output].ExternalColumns[territory]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="territory" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[officeCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[officeCode]"
+                      name="officeCode" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[country]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[country]"
+                      name="country" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[city]"
+                      name="city" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[states]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[states]"
+                      name="states" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[addressLine1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[addressLine1]"
+                      name="addressLine1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[postalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[postalCode]"
+                      name="postalCode" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[territory]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[territory]"
+                      name="territory" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF – Stage Offices.Paths[OLE DB Source Output]"
+              endId="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\DF – Stage Offices\SRC - Buy car Offices.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\DF – Stage Products"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{61B3A62F-3C33-47B7-83AE-C396B2A728A3}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF – Stage Products"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="DST - Stage stgBuyCar Products"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[stgBuyCarProducts]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].Columns[productCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="productCode"
+                      externalMetadataColumnId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productCode]"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productCode]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].Columns[productName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="70"
+                      cachedName="productName"
+                      externalMetadataColumnId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productName]"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productName]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].Columns[productVendor]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="productVendor"
+                      externalMetadataColumnId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productVendor]"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productVendor]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].Columns[productDescription]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="productDescription"
+                      externalMetadataColumnId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productDescription]"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productDescription]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="productCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="70"
+                      name="productName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productVendor]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="productVendor" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input].ExternalColumns[productDescription]"
+                      codePage="1252"
+                      dataType="str"
+                      length="500"
+                      name="productDescription" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF – Stage Products\SRC - Buy car Products"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="SRC - Buy car Products"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT productCode, productName, productVendor, productDescription
+FROM     products</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Products\SRC - Buy car Products.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productCode]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productCode]"
+                      length="15"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productCode]"
+                      name="productCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productName]"
+                      length="70"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productName]"
+                      name="productName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productVendor]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productVendor]"
+                      length="50"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productVendor]"
+                      name="productVendor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productDescription]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productDescription]"
+                      length="500"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].Columns[productDescription]"
+                      name="productDescription"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="productCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="70"
+                      name="productName" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productVendor]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="productVendor" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output].ExternalColumns[productDescription]"
+                      codePage="1252"
+                      dataType="str"
+                      length="500"
+                      name="productDescription" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productCode]"
+                      name="productCode" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="70"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productName]"
+                      name="productName" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productVendor]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productVendor]"
+                      name="productVendor" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productDescription]"
+                      codePage="1252"
+                      dataType="str"
+                      length="500"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[productDescription]"
+                      name="productDescription" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF – Stage Products.Paths[OLE DB Source Output]"
+              endId="Package\DF – Stage Products\DST - Stage stgBuyCar Products.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\DF – Stage Products\SRC - Buy car Products.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\DF – Stage Sales"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{72E88959-68E9-451E-A48B-1B2358F60402}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF – Stage Sales"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="DST - Stage stgBuyCar Sales"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[stgBuyCarSales]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 7]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buycarStage 7]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[ProductCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="ProductCode"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[ProductCode]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[ProductCode]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[OrderID]"
+                      cachedDataType="i4"
+                      cachedName="OrderID"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[OrderID]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OrderID]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[CustomerNumber]"
+                      cachedDataType="i4"
+                      cachedName="CustomerNumber"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[CustomerNumber]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[CustomerNumber]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[EmployeeNumber]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeNumber"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeNumber]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[EmployeeNumber]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[OfficesCode]"
+                      cachedDataType="i4"
+                      cachedName="OfficesCode"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[OfficesCode]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OfficesCode]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[BuyPrice]"
+                      cachedDataType="numeric"
+                      cachedName="BuyPrice"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[BuyPrice]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[BuyPrice]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[MSRP]"
+                      cachedDataType="numeric"
+                      cachedName="MSRP"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[MSRP]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[MSRP]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[RequiredDate]"
+                      cachedDataType="dbDate"
+                      cachedName="RequiredDate"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[RequiredDate]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[RequiredDate]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[ShippedDate]"
+                      cachedDataType="dbDate"
+                      cachedName="ShippedDate"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[ShippedDate]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[ShippedDate]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[QuantityOrdered]"
+                      cachedDataType="i4"
+                      cachedName="QuantityOrdered"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[QuantityOrdered]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[QuantityOrdered]" />
+                    <inputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].Columns[OrderDate]"
+                      cachedDataType="dbDate"
+                      cachedName="OrderDate"
+                      externalMetadataColumnId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[OrderDate]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OrderDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[ProductCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="ProductCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[OrderID]"
+                      dataType="i4"
+                      name="OrderID" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[CustomerNumber]"
+                      dataType="i4"
+                      name="CustomerNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeNumber]"
+                      dataType="i4"
+                      name="EmployeeNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[OfficesCode]"
+                      dataType="i4"
+                      name="OfficesCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[BuyPrice]"
+                      dataType="numeric"
+                      name="BuyPrice"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[MSRP]"
+                      dataType="numeric"
+                      name="MSRP"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      name="OrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[RequiredDate]"
+                      dataType="dbTimeStamp"
+                      name="RequiredDate" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[ShippedDate]"
+                      dataType="dbTimeStamp"
+                      name="ShippedDate" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input].ExternalColumns[QuantityOrdered]"
+                      dataType="i4"
+                      name="QuantityOrdered" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF – Stage Sales\SRC - Buy car Sales"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="SRC - Buy car Sales"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT orderdetails.orderNumber AS OrderID, orderdetails.productCode AS ProductCode, orders.customerNumber AS CustomerNumber, employees.employeeNumber AS EmployeeNumber, offices.officeCode AS OfficesCode, 
+                  orders.orderDate AS OrderDate, orders.requiredDate AS RequiredDate, orders.shippedDate AS ShippedDate, orderdetails.quantityOrdered AS QuantityOrdered, products.buyPrice AS BuyPrice, products.MSRP
+FROM     orders INNER JOIN
+                  orderdetails ON orders.orderNumber = orderdetails.orderNumber INNER JOIN
+                  customers ON orders.customerNumber = customers.customerNumber INNER JOIN
+                  employees ON customers.salesRepEmployeeNumber = employees.employeeNumber INNER JOIN
+                  offices ON employees.officeCode = offices.officeCode INNER JOIN
+                  products ON orderdetails.productCode = products.productCode</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF – Stage Sales\SRC - Buy car Sales.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 4]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-QEN4LJI\SQLEXPRESS.buy_car 4]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[ProductCode]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[ProductCode]"
+                      length="15"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[ProductCode]"
+                      name="ProductCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OrderID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OrderID]"
+                      name="OrderID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[CustomerNumber]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[CustomerNumber]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[CustomerNumber]"
+                      name="CustomerNumber"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[EmployeeNumber]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[EmployeeNumber]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[EmployeeNumber]"
+                      name="EmployeeNumber"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OfficesCode]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[OfficesCode]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OfficesCode]"
+                      name="OfficesCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[BuyPrice]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[BuyPrice]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[BuyPrice]"
+                      name="BuyPrice"
+                      precision="10"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[MSRP]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[MSRP]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[MSRP]"
+                      name="MSRP"
+                      precision="10"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OrderDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[OrderDate]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[OrderDate]"
+                      name="OrderDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[RequiredDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[RequiredDate]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[RequiredDate]"
+                      name="RequiredDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[ShippedDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[ShippedDate]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[ShippedDate]"
+                      name="ShippedDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[QuantityOrdered]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[QuantityOrdered]"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].Columns[QuantityOrdered]"
+                      name="QuantityOrdered"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[ProductCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="ProductCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
+                      dataType="i4"
+                      name="OrderID" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[CustomerNumber]"
+                      dataType="i4"
+                      name="CustomerNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[EmployeeNumber]"
+                      dataType="i4"
+                      name="EmployeeNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[OfficesCode]"
+                      dataType="i4"
+                      name="OfficesCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[BuyPrice]"
+                      dataType="numeric"
+                      name="BuyPrice"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[MSRP]"
+                      dataType="numeric"
+                      name="MSRP"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[OrderDate]"
+                      dataType="dbDate"
+                      name="OrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[RequiredDate]"
+                      dataType="dbDate"
+                      name="RequiredDate" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[ShippedDate]"
+                      dataType="dbDate"
+                      name="ShippedDate" />
+                    <externalMetadataColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output].ExternalColumns[QuantityOrdered]"
+                      dataType="i4"
+                      name="QuantityOrdered" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[OrderID]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[OrderID]"
+                      name="OrderID" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ProductCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ProductCode]"
+                      name="ProductCode" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[CustomerNumber]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[CustomerNumber]"
+                      name="CustomerNumber" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[EmployeeNumber]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[EmployeeNumber]"
+                      name="EmployeeNumber" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[OfficesCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[OfficesCode]"
+                      name="OfficesCode" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[OrderDate]"
+                      dataType="dbDate"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[OrderDate]"
+                      name="OrderDate" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[RequiredDate]"
+                      dataType="dbDate"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[RequiredDate]"
+                      name="RequiredDate" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ShippedDate]"
+                      dataType="dbDate"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ShippedDate]"
+                      name="ShippedDate" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[QuantityOrdered]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[QuantityOrdered]"
+                      name="QuantityOrdered" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[BuyPrice]"
+                      dataType="numeric"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[BuyPrice]"
+                      name="BuyPrice"
+                      precision="10"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[MSRP]"
+                      dataType="numeric"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[MSRP]"
+                      name="MSRP"
+                      precision="10"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF – Stage Sales.Paths[OLE DB Source Output]"
+              endId="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\DF – Stage Sales\SRC - Buy car Sales.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\SQL – Truncate Stage Tables"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{45E8A46D-F980-43B8-AC85-58B661F5F68E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL – Truncate Stage Tables"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9DEB34F-8A1E-4337-A9AA-C4B2701C22A4}"
+          SQLTask:SqlStatementSource="truncate table stgBuyCarProducts;&#xA;truncate table stgBuyCarCustomers;&#xA;truncate table stgBuyCarEmployees;&#xA;truncate table stgBuyCarOffices;&#xA;truncate table stgBuyCarSales;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{C65799D3-4F9E-451F-96FD-4F27382654EA}"
+      DTS:From="Package\SQL – Truncate Stage Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\DF – Stage Products" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{DB375532-E87A-4FE3-BF33-E2B8EA83CF81}"
+      DTS:From="Package\SQL – Truncate Stage Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\DF – Stage Offices" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{B256469A-199E-47A7-A29B-EC313999A63B}"
+      DTS:From="Package\SQL – Truncate Stage Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\DF – Stage Sales" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{7B2AE9C7-AD35-4900-8F6F-25E5CF6137C2}"
+      DTS:From="Package\SQL – Truncate Stage Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\DF – Stage Customers" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{EE15E081-C8D7-4792-B69A-10214B637F59}"
+      DTS:From="Package\SQL – Truncate Stage Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\DF – Stage Employees" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="183.2,41.6"
+          Id="Package\DF – Stage Customers"
+          TopLeft="547.142866460645,185.976473196484" />
+        <NodeLayout
+          Size="184,41.6"
+          Id="Package\DF – Stage Employees"
+          TopLeft="749.48572617745,184.600002588945" />
+        <NodeLayout
+          Size="165.6,41.6"
+          Id="Package\DF – Stage Offices"
+          TopLeft="199.85714626069,183.835296695867" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\DF – Stage Products"
+          TopLeft="7.00000011920932,182.152943731096" />
+        <NodeLayout
+          Size="157.6,41.6"
+          Id="Package\DF – Stage Sales"
+          TopLeft="376.571434984402,183.223531981405" />
+        <NodeLayout
+          Size="215.2,41.6"
+          Id="Package\SQL – Truncate Stage Tables"
+          TopLeft="382.285720796002,44.5058829771194" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="420.819054129335,86.1058829771194">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-326.619054010126,96.0470607539773"
+              Start="0,0"
+              End="-326.619054010126,88.5470607539773">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.3262778812951" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.3262778812951"
+                    Point2="0,25.3262778812951"
+                    Point3="-4,25.3262778812951" />
+                  <mssgle:LineSegment
+                    End="-322.619054010126,25.3262778812951" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-322.619054010126,25.3262778812951"
+                    Point2="-326.619054010126,25.3262778812951"
+                    Point3="-326.619054010126,29.3262778812951" />
+                  <mssgle:LineSegment
+                    End="-326.619054010126,88.5470607539773" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="455.352387462669,86.1058829771194">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-172.695241201979,97.7294137187483"
+              Start="0,0"
+              End="-172.695241201979,90.2294137187483">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.5245156589476" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.5245156589476"
+                    Point2="0,39.5245156589476"
+                    Point3="-4,39.5245156589476" />
+                  <mssgle:LineSegment
+                    End="-168.695241201979,39.5245156589476" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-168.695241201979,39.5245156589476"
+                    Point2="-172.695241201979,39.5245156589476"
+                    Point3="-172.695241201979,43.5245156589476" />
+                  <mssgle:LineSegment
+                    End="-172.695241201979,90.2294137187483" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="489.885720796002,86.1058829771194">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-34.5142858116,97.1176490042863"
+              Start="0,0"
+              End="-34.5142858116,89.6176490042863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5588245021432" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44.5588245021432"
+                    Point2="0,48.5588245021432"
+                    Point3="-4,48.5588245021432" />
+                  <mssgle:LineSegment
+                    End="-30.5142858116,48.5588245021432" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-30.5142858116,48.5588245021432"
+                    Point2="-34.5142858116,48.5588245021432"
+                    Point3="-34.5142858116,52.5588245021432" />
+                  <mssgle:LineSegment
+                    End="-34.5142858116,89.6176490042863" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="524.419054129335,86.1058829771194">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="114.32381233131,99.8705902193653"
+              Start="0,0"
+              End="114.32381233131,92.3705902193653">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.3904674835514" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,36.3904674835514"
+                    Point2="0,40.3904674835514"
+                    Point3="4,40.3904674835514" />
+                  <mssgle:LineSegment
+                    End="110.32381233131,40.3904674835514" />
+                  <mssgle:CubicBezierSegment
+                    Point1="110.32381233131,40.3904674835514"
+                    Point2="114.32381233131,40.3904674835514"
+                    Point3="114.32381233131,44.3904674835514" />
+                  <mssgle:LineSegment
+                    End="114.32381233131,92.3705902193653" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="558.952387462669,86.1058829771194">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="282.533338714781,98.4941196118263"
+              Start="0,0"
+              End="282.533338714781,90.9941196118263">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.9715333647973" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.9715333647973"
+                    Point2="0,25.9715333647973"
+                    Point3="4,25.9715333647973" />
+                  <mssgle:LineSegment
+                    End="278.533338714781,25.9715333647973" />
+                  <mssgle:CubicBezierSegment
+                    Point1="278.533338714781,25.9715333647973"
+                    Point2="282.533338714781,25.9715333647973"
+                    Point3="282.533338714781,29.9715333647973" />
+                  <mssgle:LineSegment
+                    End="282.533338714781,90.9941196118263" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\DF – Stage Customers">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="196,41.6"
+          Id="Package\DF – Stage Customers\SRC - Buy car Customers"
+          TopLeft="389.6,136.8" />
+        <NodeLayout
+          Size="239.2,41.6"
+          Id="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers"
+          TopLeft="374.4,220" />
+        <EdgeLayout
+          Id="Package\DF – Stage Customers.Paths[OLE DB Source Output]"
+          TopLeft="490.8,178.4">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41.6"
+              Start="0,0"
+              End="0,34.1">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.1" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Customers\DST - Stage stgBuyCar Customers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Customers\SRC - Buy car Customers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DF – Stage Employees">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="196.8,41.6"
+          Id="Package\DF – Stage Employees\SRC - Buy car Employees"
+          TopLeft="457.6,56.8" />
+        <NodeLayout
+          Size="240,41.6"
+          Id="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees"
+          TopLeft="436,147.2" />
+        <EdgeLayout
+          Id="Package\DF – Stage Employees.Paths[OLE DB Source Output]"
+          TopLeft="556,98.4">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,48.8"
+              Start="0,0"
+              End="0,41.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Employees\DST - Stage stgBuyCar Employees">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Employees\SRC - Buy car Employees">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DF – Stage Offices">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="178.4,41.6"
+          Id="Package\DF – Stage Offices\SRC - Buy car Offices"
+          TopLeft="404,137.6" />
+        <NodeLayout
+          Size="221.6,41.6"
+          Id="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices"
+          TopLeft="379.2,220" />
+        <EdgeLayout
+          Id="Package\DF – Stage Offices.Paths[OLE DB Source Output]"
+          TopLeft="491.6,179.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.7999999999999"
+              Start="0,0"
+              End="0,33.2999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.2999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Offices\DST - Stage stgBuyCar Offices">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Offices\SRC - Buy car Offices">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DF – Stage Products">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="187.2,41.6"
+          Id="Package\DF – Stage Products\SRC - Buy car Products"
+          TopLeft="292.57143355389,16.5176472904773" />
+        <NodeLayout
+          Size="229.6,41.6"
+          Id="Package\DF – Stage Products\DST - Stage stgBuyCar Products"
+          TopLeft="266.857147401693,103.388236744099" />
+        <EdgeLayout
+          Id="Package\DF – Stage Products.Paths[OLE DB Source Output]"
+          TopLeft="383.914290477792,58.1176472904773">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45.2705894536213"
+              Start="0,0"
+              End="0,37.7705894536213">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.7705894536213" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Products\DST - Stage stgBuyCar Products">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Products\SRC - Buy car Products">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DF – Stage Sales">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\DF – Stage Sales\SRC - Buy car Sales"
+          TopLeft="433.942855595569,103.717646852909" />
+        <NodeLayout
+          Size="213.6,41.6"
+          Id="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales"
+          TopLeft="409.599998433249,197.270587849205" />
+        <EdgeLayout
+          Id="Package\DF – Stage Sales.Paths[OLE DB Source Output]"
+          TopLeft="517.971427014409,145.317646852909">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.9529409962958"
+              Start="0,0"
+              End="0,44.4529409962958">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.4529409962958" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Sales\DST - Stage stgBuyCar Sales">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF – Stage Sales\SRC - Buy car Sales">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
